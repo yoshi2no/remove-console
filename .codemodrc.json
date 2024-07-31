@@ -1,9 +1,13 @@
 {
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
-  "name": "remove-console",
+  "name": "typescript/remove-console",
   "version": "1.0.0",
-  "engine": "jscodeshift",
   "private": false,
-  "arguments": [],
-  "meta": {}
+  "description": "This codemod removes console statements.",
+  "engine": "jscodeshift",
+  "meta": {
+    "tags": ["migration"],
+    "git": "https://github.com/yoshi2no/remove-console"
+  },
+  "include": ["**/*.js", "**/*.ts"]
 }
