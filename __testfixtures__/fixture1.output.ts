@@ -1,1 +1,3 @@
-const replacement = "hello";
+const greeting = "hello world!";
+
+const sayHi = () => {};
